@@ -1,0 +1,4 @@
+El numero de chip es:
+GW1NR-LV9QN88PC6/I5
+
+Divice Version: C

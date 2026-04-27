@@ -1,0 +1,41 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.12.02"
+//Fri Apr 24 20:34:36 2026
+
+//Source file index table:
+//file0 "\/home/maddog/Documentos/Verilog/Primer/negado/src/negado.v"
+`timescale 100 ps/100 ps
+module negado (
+  a,
+  negado
+)
+;
+input a;
+output negado;
+wire a_d;
+wire negado_d_5;
+wire VCC;
+wire GND;
+  IBUF a_ibuf (
+    .O(a_d),
+    .I(a) 
+);
+  OBUF negado_obuf (
+    .O(negado),
+    .I(negado_d_5) 
+);
+  INV negado_d_s0 (
+    .O(negado_d_5),
+    .I(a_d) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* negado */

@@ -1,0 +1,86 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.12.02"
+//Sun Apr 19 12:55:47 2026
+
+//Source file index table:
+//file0 "\/home/maddog/Documentos/Verilog/DSD/FlipFlopD/src/FlipFlopD.v"
+`timescale 100 ps/100 ps
+module FlipFlopD (
+  D,
+  clk,
+  clr,
+  Q,
+  Qn
+)
+;
+input D;
+input clk;
+input clr;
+output Q;
+output Qn;
+wire D_d;
+wire clk_d;
+wire q4;
+wire q2;
+wire Q_0;
+wire Qn_d;
+wire VCC;
+wire GND;
+  IBUF D_ibuf (
+    .O(D_d),
+    .I(D) 
+);
+  IBUF clk_ibuf (
+    .O(clk_d),
+    .I(clk) 
+);
+  OBUF Q_obuf (
+    .O(Q),
+    .I(Q_0) 
+);
+  OBUF Qn_obuf (
+    .O(Qn),
+    .I(Qn_d) 
+);
+  LUT4 q4_s2 (
+    .F(q4),
+    .I0(q4),
+    .I1(q2),
+    .I2(clk_d),
+    .I3(D_d) 
+);
+defparam q4_s2.INIT=16'h80FF;
+  LUT3 q2_s2 (
+    .F(q2),
+    .I0(q2),
+    .I1(q4),
+    .I2(clk_d) 
+);
+defparam q2_s2.INIT=8'h8F;
+  LUT4 Q_s4 (
+    .F(Q_0),
+    .I0(clk_d),
+    .I1(q4),
+    .I2(Q_0),
+    .I3(q2) 
+);
+defparam Q_s4.INIT=16'h70FF;
+  LUT4 Qn_d_s (
+    .F(Qn_d),
+    .I0(q2),
+    .I1(clk_d),
+    .I2(q4),
+    .I3(Q_0) 
+);
+defparam Qn_d_s.INIT=16'h80FF;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* FlipFlopD */
