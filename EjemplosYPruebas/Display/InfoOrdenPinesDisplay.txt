@@ -1,0 +1,25 @@
+Controla cada segmento individual del display.
+
+Segmento lógico	Pin FPGA
+display[0]	80
+display[1]	79
+display[2]	83
+display[3]	84
+display[4]	85
+display[5]	81
+display[6]	82
+
+Orden detectado por pruebas:
+
+display[6:0] = gfedcba
+
+Es decir:
+
+Bit	Segmento
+[0]	a
+[1]	b
+[2]	c
+[3]	d
+[4]	e
+[5]	f
+[6]	g
