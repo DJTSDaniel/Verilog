@@ -1,0 +1,10 @@
+#SUBSYSTEM=="usb", ATTR{idVendor}=="5345", MODE="0666"
+
+# Sipeed Tang Nano 9K - FTDI FT2232D
+SUBSYSTEM=="usb", ATTR{idVendor}=="0403", ATTR{idProduct}=="6010", MODE="0666", GROUP="users", TAG+="uaccess"
+
+# También para el interfaz JTAG específico
+SUBSYSTEM=="usb", ENV{ID_USB_VENDOR_ID}=="0403", ENV{ID_USB_MODEL_ID}=="6010", MODE="0666", GROUP="users"
+
+Ubicacion 
+/etc/udev/rules.d/99-tangnano.rules
