@@ -1,7 +1,7 @@
 //
 //Written by GowinSynthesis
 //Tool Version "V1.9.12.02"
-//Mon Apr 27 20:50:53 2026
+//Wed May  6 10:23:59 2026
 
 //Source file index table:
 //file0 "\/home/maddog/Documentos/Verilog/Verilog/EjemplosYPruebas/Display/src/decodificadorDisplay.v"
@@ -86,7 +86,7 @@ wire GND;
     .I2(bitOut_d[2]),
     .I3(bitOut_d[3]) 
 );
-defparam display_6_s18.INIT=16'h037C;
+defparam display_6_s18.INIT=16'hFF7C;
   LUT4 display_5_s17 (
     .F(display_d[5]),
     .I0(bitOut_d[0]),
@@ -94,7 +94,7 @@ defparam display_6_s18.INIT=16'h037C;
     .I2(bitOut_d[2]),
     .I3(bitOut_d[3]) 
 );
-defparam display_5_s17.INIT=16'h0371;
+defparam display_5_s17.INIT=16'hFF71;
   LUT4 display_4_s17 (
     .F(display_d[4]),
     .I0(bitOut_d[0]),
@@ -102,7 +102,7 @@ defparam display_5_s17.INIT=16'h0371;
     .I2(bitOut_d[2]),
     .I3(bitOut_d[3]) 
 );
-defparam display_4_s17.INIT=16'h0145;
+defparam display_4_s17.INIT=16'hFD45;
   LUT4 display_3_s17 (
     .F(display_d[3]),
     .I0(bitOut_d[0]),
@@ -110,7 +110,7 @@ defparam display_4_s17.INIT=16'h0145;
     .I2(bitOut_d[2]),
     .I3(bitOut_d[3]) 
 );
-defparam display_3_s17.INIT=16'h036D;
+defparam display_3_s17.INIT=16'hFF6D;
   LUT4 display_2_s17 (
     .F(display_d[2]),
     .I0(bitOut_d[0]),
@@ -134,7 +134,7 @@ defparam display_1_s17.INIT=16'h039F;
     .I2(bitOut_d[2]),
     .I3(bitOut_d[3]) 
 );
-defparam display_0_s17.INIT=16'h03ED;
+defparam display_0_s17.INIT=16'hFFED;
   VCC VCC_cZ (
     .V(VCC)
 );

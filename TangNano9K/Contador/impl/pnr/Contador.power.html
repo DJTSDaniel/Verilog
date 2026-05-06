@@ -61,11 +61,11 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Design File</td>
-<td>/home/maddog/Documentos/Verilog/Verilog/EjemplosYPruebas/Display/impl/gwsynthesis/Display.vg</td>
+<td>/home/maddog/Documentos/Verilog/Verilog/TangNano9K/Contador/impl/gwsynthesis/Contador.vg</td>
 </tr>
 <tr>
 <td class="label">Physical Constraints File</td>
-<td>/home/maddog/Documentos/Verilog/Verilog/EjemplosYPruebas/Display/src/Display.cst</td>
+<td>/home/maddog/Documentos/Verilog/Verilog/TangNano9K/Contador/src/Contador.cst</td>
 </tr>
 <tr>
 <td class="label">Timing Constraints File</td>
@@ -89,7 +89,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Wed May  6 10:24:00 2026
+<td>Wed May  6 12:41:49 2026
 </td>
 </tr>
 <tr>
@@ -161,15 +161,15 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <table class="summary_table">
 <tr>
 <td class="label">Total Power (mW)</td>
-<td>24.301</td>
+<td>24.967</td>
 </tr>
 <tr>
 <td class="label">Quiescent Power (mW)</td>
-<td>24.191</td>
+<td>24.219</td>
 </tr>
 <tr>
 <td class="label">Dynamic Power (mW)</td>
-<td>0.110</td>
+<td>0.748</td>
 </tr>
 <tr>
 <td class="label">Psram Power (mW)</td>
@@ -180,7 +180,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <table class="summary_table">
 <tr>
 <td class="label">Junction Temperature</td>
-<td>25.488</td>
+<td>25.502</td>
 </tr>
 <tr>
 <td class="label">Theta JA</td>
@@ -188,7 +188,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Max Allowed Ambient Temperature</td>
-<td>84.512</td>
+<td>84.498</td>
 </tr>
 </table>
 <h2><a name="Supply_Summary">Supply Information:</a></h2>
@@ -203,23 +203,23 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <tr>
 <td>VCC</td>
 <td>1.200</td>
-<td>0.018</td>
+<td>0.127</td>
 <td>3.498</td>
-<td>4.218</td>
+<td>4.350</td>
 </tr>
 <tr>
 <td>VCCX</td>
 <td>3.300</td>
-<td>0.018</td>
+<td>0.117</td>
 <td>5.000</td>
-<td>16.558</td>
+<td>16.886</td>
 </tr>
 <tr>
 <td>VCCIO18</td>
 <td>1.800</td>
-<td>0.017</td>
-<td>1.941</td>
-<td>3.525</td>
+<td>0.116</td>
+<td>1.957</td>
+<td>3.731</td>
 </tr>
 </table>
 <h1><a name="Detail">Power Details</a></h1>
@@ -232,10 +232,16 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <th class="label">Average Toggle Rate(millions of transitions/sec)</th>
 </tr>
 <tr>
+<td>Logic</td>
+<td>0.011</td>
+<td>NA</td>
+<td>6.720</td>
+</tr>
+<tr>
 <td>IO</td>
-<td>4.161
-<td>4.051
-<td>1.667
+<td>4.838
+<td>4.103
+<td>9.375
 </tr>
 </table>
 <h2><a name="By_Hierarchy">Power By Hierarchy:</a></h2>
@@ -246,9 +252,17 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <th class="label">Block Dynamic Power(mW)</th>
 </tr>
 <tr>
-<td>decodificadorDisplay</td>
-<td>0.000</td>
-<td>0.000(0.000)</td>
+<td>Contador</td>
+<td>0.011</td>
+<td>0.011(0.010)</td>
+<tr>
+<td>Contador/Ddisplay/</td>
+<td>0.001</td>
+<td>0.001(0.000)</td>
+<tr>
+<td>Contador/reloj/</td>
+<td>0.009</td>
+<td>0.009(0.000)</td>
 </table>
 <h2><a name="By_Clock_Domain">Power By Clock Domain:</a></h2>
 <table class="detail_table">
@@ -258,9 +272,14 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <th class="label">Total Dynamic Power(mW)</th>
 </tr>
 <tr>
-<td>NO CLOCK DOMAIN</td>
-<td>0.000</td>
-<td>0.000</td>
+<td>clk</td>
+<td>50.000</td>
+<td>0.009</td>
+</tr>
+<tr>
+<td>led_d</td>
+<td>50.000</td>
+<td>0.003</td>
 </tr>
 </table>
 </div><!-- content -->

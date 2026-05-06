@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "/home/maddog/Documentos/Verilog/Verilog/TangNano9K/Contador/src/Contador.v",
+  "InstLine" : 1,
+  "InstName" : "Contador",
+  "ModuleFile" : "/home/maddog/Documentos/Verilog/Verilog/TangNano9K/Contador/src/Contador.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Contador",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/maddog/Documentos/Verilog/Verilog/TangNano9K/Contador/src/Contador.v",
+    "InstLine" : 12,
+    "InstName" : "reloj",
+    "ModuleFile" : "/home/maddog/Documentos/Verilog/Verilog/TangNano9K/Contador/src/pReloj.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "pReloj"
+   },
+   {
+    "InstFile" : "/home/maddog/Documentos/Verilog/Verilog/TangNano9K/Contador/src/Contador.v",
+    "InstLine" : 18,
+    "InstName" : "Ddisplay",
+    "ModuleFile" : "/home/maddog/Documentos/Verilog/Verilog/TangNano9K/Contador/src/decodificadorDisplay.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "decodificadorDisplay"
+   }
+  ]
+ }
+]

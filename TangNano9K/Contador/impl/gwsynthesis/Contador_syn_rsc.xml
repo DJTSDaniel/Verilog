@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="Contador" Register="4" Lut="5" T_Register="31(4)" T_Lut="63(5)">
+ <SubModule name="reloj" Register="27" Lut="51" T_Register="27(27)" T_Lut="51(51)"/>
+ <SubModule name="Ddisplay" Lut="7" T_Lut="7(7)"/>
+</Module>

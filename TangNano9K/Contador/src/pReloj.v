@@ -20,7 +20,7 @@ always @(posedge clk or negedge clr) begin
         led <= 0; // apagado (activo en bajo)
     end 
     else begin 
-        if(contador == 26_999_999) begin  // 13_499_999 es casi igual a 1 seg por ciclo, 26_999_999 es igual a casi 2 seg por ciclo
+        if(contador == 13_499_999) begin  // 13_499_999 es casi igual a 1 seg por ciclo, 26_999_999 es igual a casi 2 seg por ciclo
             contador <= 0;
             led <= ~led;
         end 
