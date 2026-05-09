@@ -1,0 +1,312 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.12.02"
+//Sat May  9 06:54:52 2026
+
+//Source file index table:
+//file0 "\/home/maddog/Documentos/Programacion/Verilog/TangNano9K/DisplayLetras/src/decoDisplayLetras.v"
+`timescale 100 ps/100 ps
+module decoDisplayLetras (
+  entrada,
+  display
+)
+;
+input [4:0] entrada;
+output [6:0] display;
+wire n11_39;
+wire n11_40;
+wire n12_39;
+wire n12_40;
+wire n14_39;
+wire n14_40;
+wire n17_39;
+wire n17_40;
+wire n20_39;
+wire n20_40;
+wire n23_39;
+wire n23_40;
+wire n26_39;
+wire n26_40;
+wire n29_39;
+wire n29_40;
+wire n11_41;
+wire n12_41;
+wire n14_41;
+wire n17_41;
+wire n20_41;
+wire n23_41;
+wire n26_41;
+wire n29_41;
+wire [4:0] entrada_d;
+wire [6:0] display_d;
+wire VCC;
+wire GND;
+  IBUF entrada_0_ibuf (
+    .O(entrada_d[0]),
+    .I(entrada[0]) 
+);
+  IBUF entrada_1_ibuf (
+    .O(entrada_d[1]),
+    .I(entrada[1]) 
+);
+  IBUF entrada_2_ibuf (
+    .O(entrada_d[2]),
+    .I(entrada[2]) 
+);
+  IBUF entrada_3_ibuf (
+    .O(entrada_d[3]),
+    .I(entrada[3]) 
+);
+  IBUF entrada_4_ibuf (
+    .O(entrada_d[4]),
+    .I(entrada[4]) 
+);
+  OBUF display_0_obuf (
+    .O(display[0]),
+    .I(display_d[0]) 
+);
+  OBUF display_1_obuf (
+    .O(display[1]),
+    .I(display_d[1]) 
+);
+  OBUF display_2_obuf (
+    .O(display[2]),
+    .I(display_d[2]) 
+);
+  OBUF display_3_obuf (
+    .O(display[3]),
+    .I(display_d[3]) 
+);
+  OBUF display_4_obuf (
+    .O(display[4]),
+    .I(display_d[4]) 
+);
+  OBUF display_5_obuf (
+    .O(display[5]),
+    .I(display_d[5]) 
+);
+  OBUF display_6_obuf (
+    .O(display[6]),
+    .I(display_d[6]) 
+);
+  LUT4 n11_s36 (
+    .F(n11_39),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n11_s36.INIT=16'hD8FB;
+  LUT4 n11_s37 (
+    .F(n11_40),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n11_s37.INIT=16'h00E7;
+  LUT4 n12_s36 (
+    .F(n12_39),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n12_s36.INIT=16'hFFFF;
+  LUT4 n12_s37 (
+    .F(n12_40),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n12_s37.INIT=16'h00FF;
+  LUT4 n14_s36 (
+    .F(n14_39),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n14_s36.INIT=16'hE5F7;
+  LUT4 n14_s37 (
+    .F(n14_40),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n14_s37.INIT=16'h006E;
+  LUT4 n17_s36 (
+    .F(n17_39),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n17_s36.INIT=16'h7DBF;
+  LUT4 n17_s37 (
+    .F(n17_40),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n17_s37.INIT=16'h00BD;
+  LUT4 n20_s36 (
+    .F(n20_39),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n20_s36.INIT=16'h265E;
+  LUT4 n20_s37 (
+    .F(n20_40),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n20_s37.INIT=16'h00DE;
+  LUT4 n23_s36 (
+    .F(n23_39),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n23_s36.INIT=16'hBACB;
+  LUT4 n23_s37 (
+    .F(n23_40),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n23_s37.INIT=16'h007A;
+  LUT4 n26_s36 (
+    .F(n26_39),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n26_s36.INIT=16'hE249;
+  LUT4 n26_s37 (
+    .F(n26_40),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n26_s37.INIT=16'h00E8;
+  LUT4 n29_s36 (
+    .F(n29_39),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n29_s36.INIT=16'hF075;
+  LUT4 n29_s37 (
+    .F(n29_40),
+    .I0(entrada_d[0]),
+    .I1(entrada_d[1]),
+    .I2(entrada_d[2]),
+    .I3(entrada_d[3]) 
+);
+defparam n29_s37.INIT=16'h0082;
+  DL display_5_s1 (
+    .Q(display_d[5]),
+    .D(n14_41),
+    .G(n12_41) 
+);
+  DL display_4_s1 (
+    .Q(display_d[4]),
+    .D(n17_41),
+    .G(n12_41) 
+);
+  DL display_3_s1 (
+    .Q(display_d[3]),
+    .D(n20_41),
+    .G(n12_41) 
+);
+  DL display_2_s1 (
+    .Q(display_d[2]),
+    .D(n23_41),
+    .G(n12_41) 
+);
+  DL display_1_s1 (
+    .Q(display_d[1]),
+    .D(n26_41),
+    .G(n12_41) 
+);
+  DL display_0_s1 (
+    .Q(display_d[0]),
+    .D(n29_41),
+    .G(n12_41) 
+);
+  DL display_6_s2 (
+    .Q(display_d[6]),
+    .D(n11_41),
+    .G(n12_41) 
+);
+  MUX2_LUT5 n11_s33 (
+    .O(n11_41),
+    .I0(n11_39),
+    .I1(n11_40),
+    .S0(entrada_d[4]) 
+);
+  MUX2_LUT5 n12_s33 (
+    .O(n12_41),
+    .I0(n12_39),
+    .I1(n12_40),
+    .S0(entrada_d[4]) 
+);
+  MUX2_LUT5 n14_s33 (
+    .O(n14_41),
+    .I0(n14_39),
+    .I1(n14_40),
+    .S0(entrada_d[4]) 
+);
+  MUX2_LUT5 n17_s33 (
+    .O(n17_41),
+    .I0(n17_39),
+    .I1(n17_40),
+    .S0(entrada_d[4]) 
+);
+  MUX2_LUT5 n20_s33 (
+    .O(n20_41),
+    .I0(n20_39),
+    .I1(n20_40),
+    .S0(entrada_d[4]) 
+);
+  MUX2_LUT5 n23_s33 (
+    .O(n23_41),
+    .I0(n23_39),
+    .I1(n23_40),
+    .S0(entrada_d[4]) 
+);
+  MUX2_LUT5 n26_s33 (
+    .O(n26_41),
+    .I0(n26_39),
+    .I1(n26_40),
+    .S0(entrada_d[4]) 
+);
+  MUX2_LUT5 n29_s33 (
+    .O(n29_41),
+    .I0(n29_39),
+    .I1(n29_40),
+    .S0(entrada_d[4]) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* decoDisplayLetras */
