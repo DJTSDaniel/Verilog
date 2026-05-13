@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="AutomataA" Register="1" Lut="5" T_Register="31(1)" T_Lut="64(5)">
+ <SubModule name="letras" Lut="7" T_Lut="7(7)"/>
+ <SubModule name="reloj" Register="27" Lut="52" T_Register="27(27)" T_Lut="52(52)"/>
+ <SubModule name="FFD2" Register="1" T_Register="1(1)"/>
+ <SubModule name="FFD1" Register="1" T_Register="1(1)"/>
+ <SubModule name="FFD0" Register="1" T_Register="1(1)"/>
+</Module>

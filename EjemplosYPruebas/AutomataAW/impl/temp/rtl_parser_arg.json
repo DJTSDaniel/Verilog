@@ -1,0 +1,29 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/d_ff.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/divisor_frecuencia.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/moore_fsm_structural.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/top_moore.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

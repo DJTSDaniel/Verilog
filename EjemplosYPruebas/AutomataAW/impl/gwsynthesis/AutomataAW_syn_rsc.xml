@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_moore" Lut="11" T_Register="30(0)" T_Lut="63(11)">
+ <SubModule name="divisor" Register="27" Lut="52" T_Register="27(27)" T_Lut="52(52)"/>
+ <SubModule name="FF2" Register="1" T_Register="1(1)"/>
+ <SubModule name="FF1" Register="1" T_Register="1(1)"/>
+ <SubModule name="FF0" Register="1" T_Register="1(1)"/>
+</Module>

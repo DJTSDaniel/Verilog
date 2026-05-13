@@ -1,0 +1,52 @@
+[
+ {
+  "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/AutomataA.v",
+  "InstLine" : 1,
+  "InstName" : "AutomataA",
+  "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/AutomataA.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "AutomataA",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/AutomataA.v",
+    "InstLine" : 16,
+    "InstName" : "letras",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/decoDisplayLetras.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "decoDisplayLetras"
+   },
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/AutomataA.v",
+    "InstLine" : 25,
+    "InstName" : "reloj",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/pReloj.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "pReloj"
+   },
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/AutomataA.v",
+    "InstLine" : 35,
+    "InstName" : "FFD2",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/FlipFlopD.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "FlipFlopD"
+   },
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/AutomataA.v",
+    "InstLine" : 42,
+    "InstName" : "FFD1",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/FlipFlopD.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "FlipFlopD"
+   },
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/AutomataA.v",
+    "InstLine" : 49,
+    "InstName" : "FFD0",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataA/src/FlipFlopD.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "FlipFlopD"
+   }
+  ]
+ }
+]

@@ -1,0 +1,78 @@
+[
+ {
+  "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/moore_fsm_structural.v",
+  "InstLine" : 1,
+  "InstName" : "moore_fsm_structural",
+  "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/moore_fsm_structural.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "moore_fsm_structural",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/moore_fsm_structural.v",
+    "InstLine" : 39,
+    "InstName" : "ff2",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/d_ff.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "d_ff"
+   },
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/moore_fsm_structural.v",
+    "InstLine" : 47,
+    "InstName" : "ff1",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/d_ff.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "d_ff"
+   },
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/moore_fsm_structural.v",
+    "InstLine" : 55,
+    "InstName" : "ff0",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/d_ff.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "d_ff"
+   }
+  ]
+ },
+ {
+  "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/top_moore.v",
+  "InstLine" : 1,
+  "InstName" : "top_moore",
+  "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/top_moore.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top_moore",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/top_moore.v",
+    "InstLine" : 41,
+    "InstName" : "divisor",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/divisor_frecuencia.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "divisor_frecuencia"
+   },
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/top_moore.v",
+    "InstLine" : 71,
+    "InstName" : "FF2",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/d_ff.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "d_ff"
+   },
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/top_moore.v",
+    "InstLine" : 80,
+    "InstName" : "FF1",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/d_ff.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "d_ff"
+   },
+   {
+    "InstFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/top_moore.v",
+    "InstLine" : 89,
+    "InstName" : "FF0",
+    "ModuleFile" : "/home/maddog/Documentos/Programacion/Verilog/EjemplosYPruebas/AutomataAW/src/d_ff.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "d_ff"
+   }
+  ]
+ }
+]
